@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		221461A217B360350087D4C7 /* test_img.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 221461A117B360350087D4C7 /* test_img.jpg */; };
+		221461A417B360FB0087D4C7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221461A317B360FB0087D4C7 /* QuartzCore.framework */; };
 		2286220117ACB8C3005BD0CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2286220017ACB8C3005BD0CC /* UIKit.framework */; };
 		2286220317ACB8C3005BD0CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2286220217ACB8C3005BD0CC /* Foundation.framework */; };
 		2286220517ACB8C3005BD0CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2286220417ACB8C3005BD0CC /* CoreGraphics.framework */; };
@@ -18,10 +20,12 @@
 		2286221717ACB8C3005BD0CC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2286221617ACB8C3005BD0CC /* Default-568h@2x.png */; };
 		2286221F17ACBC8B005BD0CC /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2286221D17ACBC8B005BD0CC /* AddressBook.framework */; };
 		2286222017ACBC8B005BD0CC /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2286221E17ACBC8B005BD0CC /* AddressBookUI.framework */; };
-		2286222317ACBCDE005BD0CC /* DEAddContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2286222217ACBCDE005BD0CC /* DEAddContactViewController.m */; };
+		2286222317ACBCDE005BD0CC /* DEImageShadowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2286222217ACBCDE005BD0CC /* DEImageShadowViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		221461A117B360350087D4C7 /* test_img.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = test_img.jpg; path = ../../../Dropbox/Avatars/test_img.jpg; sourceTree = "<group>"; };
+		221461A317B360FB0087D4C7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		228621FD17ACB8C3005BD0CC /* DummyEnterprise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DummyEnterprise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2286220017ACB8C3005BD0CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2286220217ACB8C3005BD0CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,8 +41,8 @@
 		2286221617ACB8C3005BD0CC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		2286221D17ACBC8B005BD0CC /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		2286221E17ACBC8B005BD0CC /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
-		2286222117ACBCDE005BD0CC /* DEAddContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEAddContactViewController.h; sourceTree = "<group>"; };
-		2286222217ACBCDE005BD0CC /* DEAddContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEAddContactViewController.m; sourceTree = "<group>"; };
+		2286222117ACBCDE005BD0CC /* DEImageShadowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEImageShadowViewController.h; sourceTree = "<group>"; };
+		2286222217ACBCDE005BD0CC /* DEImageShadowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEImageShadowViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				221461A417B360FB0087D4C7 /* QuartzCore.framework in Frameworks */,
 				2286221F17ACBC8B005BD0CC /* AddressBook.framework in Frameworks */,
 				2286222017ACBC8B005BD0CC /* AddressBookUI.framework in Frameworks */,
 				2286220117ACB8C3005BD0CC /* UIKit.framework in Frameworks */,
@@ -81,6 +86,7 @@
 				2286221E17ACBC8B005BD0CC /* AddressBookUI.framework */,
 				2286220417ACB8C3005BD0CC /* CoreGraphics.framework */,
 				2286220217ACB8C3005BD0CC /* Foundation.framework */,
+				221461A317B360FB0087D4C7 /* QuartzCore.framework */,
 				2286220017ACB8C3005BD0CC /* UIKit.framework */,
 			);
 			name = Frameworks;
@@ -90,10 +96,11 @@
 			isa = PBXGroup;
 			children = (
 				2286220F17ACB8C3005BD0CC /* DEAppDelegate.h */,
+				2286222117ACBCDE005BD0CC /* DEImageShadowViewController.h */,
+				221461A117B360350087D4C7 /* test_img.jpg */,
 				2286221017ACB8C3005BD0CC /* DEAppDelegate.m */,
+				2286222217ACBCDE005BD0CC /* DEImageShadowViewController.m */,
 				2286220717ACB8C3005BD0CC /* Supporting Files */,
-				2286222117ACBCDE005BD0CC /* DEAddContactViewController.h */,
-				2286222217ACBCDE005BD0CC /* DEAddContactViewController.m */,
 			);
 			path = DummyEnterprise;
 			sourceTree = "<group>";
@@ -168,6 +175,7 @@
 				2286221317ACB8C3005BD0CC /* Default.png in Resources */,
 				2286221517ACB8C3005BD0CC /* Default@2x.png in Resources */,
 				2286221717ACB8C3005BD0CC /* Default-568h@2x.png in Resources */,
+				221461A217B360350087D4C7 /* test_img.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,7 +188,7 @@
 			files = (
 				2286220D17ACB8C3005BD0CC /* main.m in Sources */,
 				2286221117ACB8C3005BD0CC /* DEAppDelegate.m in Sources */,
-				2286222317ACBCDE005BD0CC /* DEAddContactViewController.m in Sources */,
+				2286222317ACBCDE005BD0CC /* DEImageShadowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +303,7 @@
 				2286221C17ACB8C3005BD0CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

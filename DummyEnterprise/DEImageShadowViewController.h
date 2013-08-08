@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DEAddContactViewController : UIViewController
+
+@interface DEImageShadowViewController : UIViewController
 
 @end
